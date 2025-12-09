@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Модели
+models/*.pt
+models/*.onnx
+models/*.json
+!models/.gitkeep
+
+# Аудио файлы
+audio/*.wav
+audio/*.mp3
+audio/*.webm
+audio/*.m4a
+!audio/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Environment
+.env
+.env.local
+
+# Logs
+*.log
+
