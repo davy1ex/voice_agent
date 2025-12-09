@@ -1,0 +1,25 @@
+# FastAPI and server
+fastapi>=0.104.1
+uvicorn[standard]>=0.24.0
+python-multipart>=0.0.6
+
+# Whisper for transcription
+openai-whisper>=20231117
+
+# Piper TTS for speech synthesis
+piper-tts>=1.0.0
+
+# HTTP client for Ollama
+httpx>=0.25.0
+# official ollama library
+ollama>=0.6.0
+
+# audio processing
+pydub>=0.25.1
+numpy>=1.24.0
+
+# utilities
+python-dotenv>=1.0.0
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+
